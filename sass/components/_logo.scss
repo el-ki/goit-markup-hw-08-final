@@ -1,0 +1,43 @@
+.logo {
+  font-family: $secondary-font;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.192;
+  letter-spacing: 0.03em;
+  color: $logo-color;
+  margin-right: 92px;
+  display: block;
+  padding: 25px 0;
+
+  &-color {
+    color: $accent-color;
+  }
+  .footer & {
+    display: block;
+    padding-bottom: 0;
+    margin-right: 0;
+    padding-top: 0;
+    margin-bottom: 20px;
+  }
+  &-dark-theme {
+    color: $color-dark-theme;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .logo {
+    .footer & {
+      display: flex;
+      width: 100%;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+  .logo {
+    .header & {
+      margin-right: 77px;
+    }
+  }
+}

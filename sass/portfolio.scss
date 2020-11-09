@@ -1,0 +1,19 @@
+//utils
+@import "./utils/variables";
+@import "./utils/placeholders";
+@import "./utils/mixins";
+
+//base
+@import "./base/common";
+@import "./base/visually-hidden";
+
+//components
+@import "./components/modal-btn";
+@import "./components/modal";
+@import "./components/social-list";
+@import "./components/logo";
+
+//layout
+@import "./layout/header-portfolio";
+@import "./layout/galery-portfolio";
+@import "./layout/footer";

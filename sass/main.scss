@@ -1,0 +1,23 @@
+// utils
+@import "./utils/variables";
+@import "./utils/placeholders";
+@import "./utils/mixins";
+
+//base
+@import "./base/common";
+@import "./base/visually-hidden";
+
+//components
+@import "./components/modal-btn";
+@import "./components/modal";
+@import "./components/social-list";
+@import "./components/logo";
+
+//components
+@import "./layout/header";
+@import "./layout/hero";
+@import "./layout/advantages";
+@import "./layout/about-us";
+@import "./layout/our-team";
+@import "./layout/clients";
+@import "./layout/footer";

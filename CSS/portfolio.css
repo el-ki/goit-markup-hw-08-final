@@ -142,7 +142,7 @@ img {
   z-index: 9999;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 479px) {
   .backdrop {
     overflow-y: scroll;
   }
@@ -157,7 +157,7 @@ img {
 
 .modal {
   position: absolute;
-  top: 55%;
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%) scale(1);
   background-color: #ffffff;
@@ -181,7 +181,7 @@ img {
 
 @media screen and (max-width: 479px) {
   .modal {
-    min-width: 320px;
+    min-width: 310px;
   }
 }
 
@@ -227,6 +227,12 @@ img {
   letter-spacing: 0.03em;
   color: #212121;
   margin-bottom: 12px;
+}
+
+@media screen and (max-width: 479px) {
+  .modal-form-title {
+    font-size: 16px;
+  }
 }
 
 .modal-form-field {

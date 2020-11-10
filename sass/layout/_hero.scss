@@ -28,6 +28,10 @@
     margin-bottom: 30px;
     margin-left: auto;
     margin-right: auto;
+
+    @media screen and (max-width: 387px) {
+      font-size: 21px;
+    }
   }
 }
 

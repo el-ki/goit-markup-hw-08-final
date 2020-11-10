@@ -712,6 +712,12 @@ img {
   margin-right: auto;
 }
 
+@media screen and (max-width: 387px) {
+  .hero-title {
+    font-size: 21px;
+  }
+}
+
 @media screen and (min-device-pixel-ratio: 2) and (min-width: 480px), screen and (min-resolution: 192dpi) and (min-width: 480px), screen and (min-resolution: 2dppx) and (min-width: 480px) {
   .hero {
     background-image: url(../images/hero/bg-mobile@2x.jpg);
@@ -898,6 +904,13 @@ img {
   letter-spacing: 0.03em;
   color: #212121;
   margin-bottom: 50px;
+}
+
+@media screen and (max-width: 1199px) {
+  .title {
+    font-size: 26px;
+    line-height: 1.179;
+  }
 }
 
 .team {
